@@ -1,0 +1,237 @@
+@media screen and (min-width:320px) and (max-width:768px) {
+    
+
+    header, footer, main{
+        width: 100%;
+        margin: auto;
+    }
+
+    button{
+    background-image: linear-gradient(to right,#B936F5, #C64C85);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-text);
+    padding: 10px 20px;
+    }
+    
+    nav{
+        display: none;
+    }
+
+    main .secao1{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    main .secao1 a{
+        font-size: 1rem;
+        font-weight: bolder;
+        border: 1px solid #ffffff;
+        padding: 9px;
+        border-radius: 5px;
+    }
+
+    main .secao1 .avaliacoes{
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    main .secao1 h1{
+        font-size: 2rem;
+    }
+
+    main .secao1 .texts p{
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    main .secao1 div{
+        width: 85%;
+        margin: auto;
+    }
+
+    main .secao1 .canva{
+        width: 70%;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    main .secao1 .text{
+        margin: auto;
+        width: 300px;
+    }
+
+    /*========================Canva========================*/
+
+    main .secao1 .canva{
+        width: 250px;
+        height: 300px;
+        border-radius: 0px 100px 200px 200px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    main .secao1 .canva img{
+        margin: -77px 0px 0px -15px;
+    }
+    
+    main .secao1 .canva h2{
+        font-size: 1.5rem;
+    }
+    
+    main .secao1 .canva hr{
+        margin: 20px auto 20px auto;
+    }
+    
+    main .secao1 .canva p{
+        font-size: 1.2rem;
+    }
+
+    main .secao2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .secao2 .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+    }
+
+    main .secao2 .container img{
+        width: 60%;
+        margin: auto;
+    }
+    
+    main .secao2 .top{
+        margin-top:0px;
+    }
+
+    main .secao2 article {
+        width: 80%;
+        margin: -50px auto auto auto;
+    }
+
+    main .secao2 article h2{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    main .secao2 article  p{
+        font-size: 1.2rem;
+        margin: 30px auto;
+        max-width: 280px;
+    }
+
+    main .secao2 article button{
+        display: block;
+        margin:auto;
+    }
+
+    /*=======================secao3=======================*/
+
+    main .secao3{
+        width: 80%;
+        margin: auto;
+    }
+
+    main .secao3 .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    main .secao3 h2{
+        font-size: 2rem;
+        text-align: center;
+        margin: 50px 0px 30px 0px;
+    }
+    
+    main .secao3 .container img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    main .secao3 .cards{
+        margin: auto;
+        width: 100%;
+    }
+    
+    main .secao3 .cards div{
+        position: relative;
+        width: 70%;
+        margin: auto;
+        border-radius: 7px;
+        margin-top: -50px;
+    }
+    
+    main .secao3 .cards div p{
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+    
+    main .secao3 .cards div h3{
+        font-size: 1.2rem;
+        padding: 10px;
+        padding-bottom: -20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*=====================secao4==========================*/
+
+    main .secao4{
+        padding: 5px 0px;
+        margin: 50px auto;
+        width: 80%;
+    }
+    
+    main .secao4 h2{
+        font-size: 1.6rem;
+        margin: 30px 10px;
+    }
+    
+    main .secao4 .text p{
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    
+    main .secao4 .container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    main .secao4 article{
+        width: 100%;
+        padding:20px;
+        border-radius: 10px;
+    }
+    
+    main .secao4 article img{
+        width: 40px;
+    }
+    
+    main .secao4 article p{
+        padding: 15px 0px;
+        font-size: 1rem;
+    }
+    
+    main .secao4 .container div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    main .secao4 h4, h5{
+        font-size: 1.2rem;
+    }
+
+
+}
